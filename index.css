@@ -73,21 +73,21 @@
   font-size: 1.5rem;
   color: #ffefef;
   transition: all 0.3s;
-  opacity: 0;
+  visibility: hidden;
 }
 .project-writeup:hover .img-caption {
   transform: translateY(-10rem);
-  opacity: 1;
+  visibility: visible;
 }
 .project-writeup:hover .img-cover {
   filter: blur(0.5px) brightness(80%);
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .project-writeup:hover .img-cover {
     filter: none;
   }
   .project-writeup:hover .img-caption {
-    opacity: 0;
+    visibility: hidden;
   }
 }
 .projects {
