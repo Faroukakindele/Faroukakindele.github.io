@@ -47,6 +47,7 @@
 .img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .about-header {
   font-size: 2rem;
@@ -72,12 +73,22 @@
   font-size: 1.5rem;
   color: #ffefef;
   transition: all 0.3s;
+  opacity: 0;
 }
 .project-writeup:hover .img-caption {
   transform: translateY(-10rem);
+  opacity: 1;
 }
 .project-writeup:hover .img-cover {
   filter: blur(0.5px) brightness(80%);
+}
+@media (max-width: 600px) {
+  .project-writeup:hover .img-cover {
+    filter: none;
+  }
+  .project-writeup:hover .img-caption {
+    opacity: 0;
+  }
 }
 .projects {
   padding: 5rem 2rem;
@@ -132,6 +143,9 @@
 }
 .col-1-of-3 {
   width: calc((100% - 10rem) / 3);
+}
+.col-1-of-2 {
+  width: calc((100% - 5rem) / 2);
 }
 .projects-items-header {
   height: 23rem;
@@ -349,5 +363,70 @@
     clip-path: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
     margin: 1rem 1rem;
+  }
+}
+.footer {
+  padding: 5rem 8rem;
+  background-color: #333;
+  color: #f7f7f7;
+}
+@media (max-width: 37.5em) {
+  .footer {
+    padding: 3rem;
+  }
+}
+.contactUs__listContainer {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+}
+.contactUS__listContainer--items {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+  text-align: center;
+  background-color: #333;
+  backface-visibility: hidden;
+  transition: all 0.3s;
+}
+
+.contactUS__listContainer--items:not(:first-child) {
+  margin-left: 4rem;
+}
+.contactUS {
+  border-top: 2px solid rgba(255, 255, 255, 0.482);
+  width: 100%;
+  padding-top: 0.5rem;
+}
+.link-profile:link,
+.link-profile:visited {
+  text-decoration: none;
+  color: #f7f7f7;
+  display: inline-block;
+}
+.link-profile:link:hover,
+.span:hover {
+  transform: scale(1.2) skewY(7deg);
+  color: forestgreen !important;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.338);
+}
+.home-profile {
+  text-align: center;
+}
+.span {
+  font-weight: bolder;
+  font-size: 1rem;
+  display: inline-block;
+}
+@media (max-width: 600px) {
+  .img-profile {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+@media (max-width: 900px) {
+  .img-profile {
+    height: 15rem;
+    width: 15rem;
   }
 }
