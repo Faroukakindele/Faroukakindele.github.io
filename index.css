@@ -82,7 +82,7 @@
 .project-writeup:hover .img-cover {
   filter: blur(0.5px) brightness(80%);
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .project-writeup:hover .img-cover {
     filter: none;
   }
