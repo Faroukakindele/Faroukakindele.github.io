@@ -155,6 +155,16 @@
   position: relative;
   transition: all 1s;
 }
+@media (max-width: 500px) {
+  .projects-items-header {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  .move {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .projects-items-header-back {
   transform: rotateY(180deg);
 }
