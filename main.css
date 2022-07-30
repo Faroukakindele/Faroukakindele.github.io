@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 40%;
   font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
 }
@@ -848,6 +848,9 @@ start of footer
 
 /*media query for tablet*/
 @media only screen and (min-width: 760px) {
+  html {
+    font-size: 56%;
+  }
   #hero {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -968,6 +971,9 @@ start of footer
 /* End media query for tablet*/
 /* media query for the desktop view */
 @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 65%;
+  }
   #nav .hamburger {
     display: none !important;
   }
