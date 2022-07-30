@@ -13,6 +13,7 @@ const nav_link = document.querySelectorAll(".navlist a");
 nav_link.forEach((link) =>
   link.addEventListener("click", (e) => {
     mobile_menu.classList.remove("active");
+    hamburmenu.classList.remove("active");
   })
 );
 
