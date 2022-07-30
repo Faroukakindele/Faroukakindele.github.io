@@ -517,7 +517,7 @@ img {
 #projects .project-img {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  height: 15rem;
+  height: 20rem;
   overflow: hidden;
   position: relative;
 }
