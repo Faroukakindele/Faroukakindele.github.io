@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 40%;
+  font-size: 50%;
   font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
 }
@@ -352,7 +352,7 @@ img {
 #projects .project {
   flex-direction: column;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 10rem;
   max-width: 120rem;
 
   &-heading h2 {
@@ -371,7 +371,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
