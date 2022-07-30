@@ -352,7 +352,7 @@ img {
 #projects .project {
   flex-direction: column;
   margin: 0 auto;
-  padding: 10rem;
+  padding: 5rem;
   max-width: 120rem;
 
   &-heading h2 {
@@ -371,7 +371,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
@@ -640,6 +640,10 @@ start of footer
     margin: 1.5%;
   }
   // projects
+
+  #projects {
+    margin-bottom: 0;
+  }
   #projects .project-item {
     height: 23rem;
     margin: 0;

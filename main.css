@@ -470,7 +470,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
-  padding: 10rem;
+  padding: 5rem;
   max-width: 120rem;
 }
 
@@ -508,7 +508,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
@@ -875,6 +875,9 @@ start of footer
     -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
     margin: 1.5%;
+  }
+  #projects {
+    margin-bottom: 0;
   }
   #projects .project-item {
     height: 23rem;
