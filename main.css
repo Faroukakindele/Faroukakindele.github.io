@@ -470,7 +470,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
-  padding: 10rem;
+  padding: 5rem;
   max-width: 120rem;
 }
 
@@ -508,7 +508,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
@@ -561,7 +561,7 @@ img {
 }
 
 #projects .project-info h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 500;
   text-transform: capitalize;
   margin-bottom: 1rem;
@@ -569,12 +569,12 @@ img {
 
 #projects .project-info h2 {
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
 #projects .project-info p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 #projects .project-item:hover .project-img img {
@@ -893,6 +893,18 @@ start of footer
   #projects .project-item .project-img {
     height: 100%;
     margin: 0;
+  }
+  #projects .project-item .project-info h2 {
+    font-size: 2rem;
+  }
+  #projects .project-item .project-info h1 {
+    font-size: 4rem;
+  }
+  #projects .project-item .project-info p {
+    font-size: 1.3rem;
+  }
+  #projects .project-item .project-info h1 {
+    font-size: 4rem;
   }
   #projects .project-item:nth-child(even) {
     -webkit-box-orient: horizontal;
